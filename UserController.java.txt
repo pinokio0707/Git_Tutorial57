@@ -7,4 +7,12 @@ public class UserController {
 
 		return "user/login";
 	}
+
+	//인서트
+	@RequestMapping("/user/insert.do")
+	public string insert() {
+		logger.info("경로 : insert");
+
+		return "user/insert";
+	}
 }
