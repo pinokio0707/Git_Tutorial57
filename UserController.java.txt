@@ -23,4 +23,13 @@ public class UserController {
 
 		return "user/update";
 	}
+
+	//조회 - master 브랜치에서 작업
+	@RequestMapping("/user/select.do")
+	public string select() {
+		logger.info("경로 : select");
+
+		return "user/select";
+	}
+
 }
